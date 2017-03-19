@@ -1,0 +1,252 @@
+html,*{
+	margin: 0px;
+	padding: 0px;
+}
+
+   .inscription h1
+   {
+
+    padding-bottom: 95px;
+    font: inherit;
+    font-weight: bold;
+    font-size: 44px;
+    font-family: 'Baskerville Cyrillic LT Std',serif;
+    text-align: center;
+   
+        padding-top: 25px;
+            margin: 0;
+   }
+.menu{
+	max-width: 100%;
+	min-width: 1100px;
+	margin: 0px auto;
+    height: 30px;
+    background: #efefef;
+    font-weight: 600;
+}
+.menu li{
+	display: initial;
+}
+.menu img {
+	position: relative;
+	top: 2px;
+	right: 2px;
+}
+.menu ul li a{
+	color: black;
+	padding: 5px;
+}
+
+.menu a:hover{
+    text-decoration: none;
+}
+.right{
+	max-width: 90%;
+	margin: 2px 125px;
+	float: right;
+}
+.left{
+	float: left;
+	margin: 5px 10%;
+}
+.header{
+	height: 100px;
+	max-width: 100%;
+	min-width: 1100px;
+	margin: 0px auto;
+}
+
+.href li{
+	display: inline;
+	float: left;
+	position: relative;
+	top: 32px;
+	left: 29%;
+	width: 30px;
+}
+.exclaim li{
+	text-align: center;
+    display: inline;
+    position: relative;
+    top: 20px;
+    right: 2%;
+}
+.header{
+	text-align: center;
+}
+
+.number{
+	float: right;
+	margin: -18px 17%;
+}
+
+.nav{
+    height: 30px;
+    max-width: 100%;
+	min-width: 1100px;
+	background: black;
+}
+
+.nav li{
+	display: inline;
+    
+}
+.nav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16pt;
+	position: relative;
+	top: 2px;
+}
+.nav{
+	text-align: center;
+}
+
+.nav ul li a{
+	padding: 20px;
+}
+
+.nav a:hover{
+	background: #fff;
+	color: black;
+}
+.home{
+	float: left;
+	margin: 53px 100px;
+	background: url(img/pic1.jpg) ;
+	height: 208px;
+	width: 85%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	max-width: 100%;
+	min-width: 850px;
+}
+
+.center{
+	min-width: 400px;
+	width: 400px;
+	height: 88px;
+    text-align: center;
+    color: #fff;
+    float: left;
+	margin: 50px 30%;
+}
+.center li{
+	display: inline;
+}
+
+.center h1{
+	font-style: oblique;
+}
+
+.home-href{
+	position: relative;
+    top: -100px;
+    left: 75%;
+	color: #fff;
+	text-decoration: none;
+	border: 2px solid #fff;
+	padding: 10px;
+}
+
+.home-href:hover{
+	color: #F027DA;
+	border: 2px solid #F027DA;
+}
+
+.centr-title{
+	text-align: center;
+	position: relative;
+	top: -20px;
+	width: 200px;
+	height: 300px;
+}
+.right-title li{
+    display: inline;
+}
+
+.tovar
+{
+	   display: -webkit-box;
+    display: -webkit-flex;
+    
+    display: flex;
+    margin-top: 25px;
+}
+.tovar_obzor
+{
+	box-sizing: border-box;
+    padding-right: 50px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 250px;
+    -ms-flex: 0 0 250px;
+    flex: 0 0 250px;
+}
+.tovar_obzor_text
+{
+	border-top: 1px solid #1a1a1a;
+    padding: 13px 10px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+        outline: none;
+            display: block;
+}
+
+.tovari
+{
+	js-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 0 -15px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 250px;
+    -ms-flex: 1 1 250px;
+    flex: 1 1 250px;
+}
+.tovimg
+{
+	max-width: 100%;
+}
+.tt
+{
+	display: block;
+    padding-bottom: 20px;
+}
+.obzort
+{
+	width: 25%;
+    text-align: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.product
+{
+	display: block;
+    padding-bottom: 20px;
+}
+.opis
+{
+	color: #1a1a1a;
+    font-family: 'Baskerville Cyrillic LT Std',serif;
+    display: block;
+}
+.price
+{
+	display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    color: #1a1a1a;
+    padding: 0 30px;
+    position: relative;
+}
